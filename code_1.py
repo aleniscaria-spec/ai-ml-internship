@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 # Read CSV
-data = pd.read_csv("Load_Extension.csv")
+data = pd.read_csv("Day1/Load_Extension.csv")
 
 # Remove unwanted spaces from column names
 data.columns = data.columns.str.strip()
